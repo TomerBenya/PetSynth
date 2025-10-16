@@ -1,0 +1,24 @@
+{
+  "name": "tomer-hw",
+  "scripts": {
+    "dev": "cd app && bun run --watch server/app.ts",
+    "seed": "bun run app/server/scripts/generate-seed-images.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "@libsql/client": "^0.15.15",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.6",
+    "hono": "^4.9.12",
+    "jose": "^6.1.0",
+    "openai": "^6.3.0",
+    "pg": "^8.16.3",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.0",
+    "@types/pg": "^8.15.5",
+    "drizzle-kit": "^0.31.5",
+    "tsx": "^4.20.6"
+  }
+}

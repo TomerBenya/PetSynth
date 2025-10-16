@@ -1,0 +1,23 @@
+{
+  "name": "pet-app",
+  "version": "1.0.0",
+  "description": "Pet management application with AI features",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch server/app.ts",
+    "build": "tsc",
+    "start": "bun run server/app.ts"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "drizzle-orm": "^0.44.6",
+    "hono": "^4.0.0",
+    "nanoid": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
